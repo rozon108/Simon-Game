@@ -68,7 +68,7 @@ function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
-  console.log("Game Over, all value reset!! \n new game?");
+  console.log("Game Over, all value reset!! \n new game? Ur score: ${level}");
 }
 
 function playSound(name) {
