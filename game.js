@@ -58,7 +58,7 @@ function checkAnswer(currentLevel) {
     $("body").addClass("game-over");
     setTimeout(() => {
       $("body").removeClass("game-over");
-      $("#level-title").text("Game Over, Press A Key to Start");
+      $("#level-title").text("Game Over, ur score: "+level+ " , Press A Key to Start");
       startOver();
     }, 200);
   }
@@ -68,7 +68,7 @@ function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
-  console.log("Game Over, all value reset!! \n new game? Ur score: ${level}");
+  console.log("Game Over, all value reset!! \n new game?");
 }
 
 function playSound(name) {
